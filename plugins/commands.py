@@ -43,7 +43,7 @@ async def start(client, message):
     if len(message.command) != 2:
         buttons = [[
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-            ],]]
+            ],[
             InlineKeyboardButton('Join Our Channel To Use this Bot.', url='http://t.me/Pdiskmoviecollection')
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
